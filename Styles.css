@@ -1,6 +1,15 @@
 /*Stying for small screens*/
-@media screen and (max-width: 425px){
 
+
+/******************************* 425px ***********************************/
+@media screen and (max-width: 425px){
+  .navbar-toggler {
+    margin: 55% !important;
+    position: absolute !important;
+}
+.logo {
+  margin: 2% -59% !important;
+}
   .illustration-working {
     width: 410px !important;
     padding-top: 40px !important;
@@ -138,8 +147,7 @@ footer p {
   z-index: 1;
 }
 .area {
-
-  height:  170vh !important;
+  height: 270vh !important;
 }
 
 .item-3 {
@@ -195,6 +203,7 @@ footer p {
   width: 90%;
   height: 600%;
   text-align: center;
+  margin-left: -23%;
 
 }
 
@@ -232,14 +241,47 @@ footer p {
   margin-left: 0% !important;
 }
 }
+/******************************* 375px ***********************************/
 
-
-
-
+@media screen and (max-width: 375px){
+.logo {
+    margin: 2% -83% !important;
+}
+.navbar-toggler {
+  margin: 50% !important;
+  position: absolute !important;
+}
+.navbar-collapse {
+  margin-left: -27%;
+}
+.illustration-working {
+  width: 370px !important;
+}
+.paragraph {
+  padding-left: 33px !important;
+}
+.button-sec2 {
+  margin-left: -56.5% !important;
+  padding: 10px 110px !important;
+}
+.button-Boost {
+  margin-left: 280% !important;
+}
+.footer-nav {
+  margin-left: -5% !important;
+}
+}
 
 
 /******************************* 320px ***********************************/
 @media screen and (max-width: 320px){
+  .logo {
+    margin: 2% -138% !important;
+}
+.navbar-toggler {
+  margin: 43% !important;
+  position: absolute !important;
+}
   .illustration-working {
     padding-top: 40px !important;
     margin-left: -310px !important;
@@ -378,8 +420,7 @@ footer p {
   z-index: 1;
 }
 .area {
-
-  height:  165vh !important;
+  height: 270vh !important;
 }
 
 .item-3 {
@@ -432,6 +473,7 @@ footer p {
   width: 90%;
   height: 600%;
   text-align: center;
+  margin-left: -33%;
 
 }
 
@@ -467,7 +509,6 @@ footer p {
   padding-left: 0;
 }
 }
-
 
 
 
@@ -637,8 +678,14 @@ font-weight: 600 !important;
 }
 /*navbar*/
 .navbar {
-        font-weight: 700;
-}
+    font-weight: 700;
+    background:#4e54c8;
+    padding: 0.5rem 7.5rem !important; 
+  }
+  
+
+
+
 .nav-link{
     padding-left: 25px !important;
      display: inline-block !important;
@@ -666,6 +713,7 @@ font-weight: 600 !important;
   justify-content: space-between;
   z-index: 1;
   position: sticky;
+  margin-top: 5%;
 }
 .text-font{
     font-size:73px;
