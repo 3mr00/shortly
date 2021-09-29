@@ -1,5 +1,245 @@
 /*Stying for small screens*/
-@media screen and (max-width: 590px){
+@media screen and (max-width: 425px){
+
+  .illustration-working {
+    width: 410px !important;
+    padding-top: 40px !important;
+    margin-left: -356px !important;
+}
+.paragraph {
+  padding-left: 60px !important;
+  padding-top: 105% !important;
+  text-align: center !important
+}
+.text-font{
+  font-size: 45px!important;
+  font-weight: 700!important;
+  color: #EAEDED;
+  margin-bottom: -10px !important;
+}
+
+.textprag{
+  color: #d8dddd!important;
+  font-size: 14px!important;
+}
+
+.p-one{
+  margin-top: 10% !important;;
+  margin-bottom: 0% !important;;
+}
+
+.button-js {
+  margin-left: 50%;
+  margin-top: 5%;
+  margin-bottom: 90%;
+}
+
+.third-box {
+
+  padding-top: 45% !important;
+}
+ 
+.dashed-box {
+  border: 83px solid #283747 !important;
+  width: 90% !important;
+  margin-left: 4% !important;
+  margin-right: 4% !important;
+  margin-top: -23% !important;
+  position: absolute !important
+
+}
+
+.button-sec2 {
+  position: absolute;
+  margin-left: -57% !important;
+  margin-top: 25% !important;
+  padding: 10px 130px !important;
+}
+
+.form_input2 {
+  width: 120% !important;
+  padding: 12px !important;
+  margin-left: 9% !important;
+  margin-top: -14% !important;
+  position: absolute;
+}
+
+.image_full{
+  display:none !important;
+ }
+
+ .image_mobile{
+  display: block !important;
+  position: absolute;
+  margin-left: 25.99%;
+  margin-top: -22.6%;
+  width: 60%;
+  margin-left: 24.8%;
+ }
+
+ .social-links {
+  position: absolute !important;
+  margin: 30% 22% !important;
+}
+.footer-nav {
+
+  margin-top: 12% !important;
+  margin-left: 0% !important;
+  position: absolute !important;;
+  display: flex !important;;
+}
+footer p {
+
+  margin-top: 155px !important;
+}
+
+
+
+.Shortly-footer {
+
+  position: absolute !important;
+  margin: -14% 22% !important;
+}
+
+.Boost-font {
+
+  display: inline-block;
+  color: #fff;
+  padding-bottom: 3%;
+  font-size: 25px!important;
+  font-weight: 700!important;
+  /* margin: 14% 21%; */
+  margin-left: 55% !important;
+  margin-top: 5% !important;
+  position: absolute;
+}
+
+.Boost-box {
+  margin: 6% -78% !important;
+  width: 174% !important
+}
+.button-Boost {
+
+  margin-left: 314% !important;
+  margin-top: 60% !important;
+}
+.third-box {
+  background-color: #EAEDED;
+  z-index: 0;
+  position: relative;
+  padding-top: 76% ;
+  margin-top: -4% !important;
+  padding-bottom: 185% !important;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: -30%;
+  z-index: 1;
+}
+.area {
+
+  height:  170vh !important;
+}
+
+.item-3 {
+  margin-top: 180% !important;
+  text-align: center !important;
+  position: absolute !important;
+
+}
+.item-2 {
+  margin-top: 100% !important;
+  position: absolute !important;
+  text-align: center !important;
+  margin-right: 0% !important;
+}
+
+.item-1 {
+   margin-right: 0%!important; 
+  margin-top: 20% !important;
+  text-align: center !important;
+}
+
+.icon-detailed {
+  margin: -6.5% 4.5% !important
+}
+.iconcircle-mobile{
+  margin: -6.5% 6.9% !important;
+
+}
+.icon-brand {
+  z-index: 5;
+  margin: -6.5% 6% !important;
+}
+
+.dot {
+  /* border-left: 6px solid #14dbe5; */
+  height: 92px !important;
+  width: 8px !important;
+  margin: 78% auto !important;
+}
+
+.dot-2 {
+  height: 92px !important;
+  width: 8px !important;
+  margin: 155% auto !important;
+}
+
+.navbar-collapse {
+  position: absolute;
+  background-color: #283747;
+  z-index: 6;
+  border-radius: 3%;
+  margin-top: 130%;
+  width: 90%;
+  height: 600%;
+  text-align: center;
+
+}
+
+.nav-link {
+  padding-left: 0px !important;
+  color: #fff !important;
+  font-size: 100%;
+}
+.navbar-collapse {
+  position: absolute !important;
+}
+
+.button-nav {
+  padding: 10px 90px !important;
+  margin: auto !important;
+}
+
+.Login-item {
+  border-top: .1px solid #a1a1a1;
+  width: 70%;
+  margin-top: 10% !important;
+  margin-left: 0% !important;
+}
+
+.navbar-nav {
+  margin-top: 10% !important;
+  margin-left: 0% !important;
+}
+
+.navbar-nav .nav-link {
+  padding-right: 20px !important;
+  padding-left: 0;
+}
+.Circles {
+  margin-left: 0% !important;
+}
+}
+
+
+
+
+
+
+/******************************* 320px ***********************************/
+@media screen and (max-width: 320px){
   .illustration-working {
     padding-top: 40px !important;
     margin-left: -310px !important;
@@ -109,8 +349,8 @@ footer p {
   font-size: 25px!important;
   font-weight: 700!important;
   /* margin: 14% 21%; */
-  margin-left: 49%;
-  margin-top: 7%;
+  margin-left: 49% !important;
+  margin-top: 7% !important;
   position: absolute;
 }
 
@@ -162,28 +402,27 @@ footer p {
 }
 
 .icon-detailed {
-  margin: -6.5% 15% !important;
+  margin: -6.5% 7% !important;
+}
+.icon-brand {
+  z-index: 5;
+  margin: -6.5% 6% !important;
 }
 .dot {
   /* border-left: 6px solid #14dbe5; */
   height: 61px !important;
   width: 8px !important;
   margin-top: 97% !important;
-  margin-left: 8% !important;
-   margin-right: 0% !important;
+
 }
 
 .dot-2 {
   height: 61px !important;
   width: 8px !important;
   margin-top: 200% !important;
-  margin-left: 8% !important;
-   margin-right: 0% !important;
+
 }
-.icon-brand {
-  z-index: 5;
-  margin: -6.5% 13% !important;
-}
+
 .navbar-collapse {
   position: absolute;
   background-color: #283747;
@@ -208,7 +447,7 @@ footer p {
 .button-nav {
 
   padding: 10px 90px !important;
-  margin: 4% 9% !important;
+  margin: auto !important;
 }
 
 .Login-item {
@@ -266,7 +505,7 @@ body{
     background: #4e54c8;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
     width: 100%;
-    height:125vh;
+    height:140vh;
     z-index: 0;
     position: absolute;
     
