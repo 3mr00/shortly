@@ -1,10 +1,6 @@
 /*Stying for small screens*/
 
-/******************************* 425px ***********************************/
-
-
-
-
+/******************************* 1250px ***********************************/
 @media screen and (max-width: 1250px){    
   .footer-flex {
     display: flex;
@@ -125,6 +121,7 @@
 
 
 }
+/******************************* 1090px ***********************************/
 
 @media screen and (max-width: 1090px){    
 
@@ -135,6 +132,7 @@
   }
   
   }
+/******************************* 845px ***********************************/
 
   @media screen and (max-width: 845px){    
     .footer-flex {
@@ -178,7 +176,7 @@
     }
     .paragraph {
       text-align: center !important;
-      padding-left: 27% !important;
+      padding-left: 30% !important;
       padding-top: 70% !important;
       margin-bottom: -25% !important;
   }
@@ -251,6 +249,55 @@ footer p {
   margin-top: 5%;
   margin-bottom: 90%;
   margin-left: 50%;
+}
+.button-nav {
+  margin-left: 0% !important;
+
+}
+.icon-detailed {
+  margin: -2.5% 2.7% !important;
+}
+.iconcircle-mobile {
+  margin: -6.5% 6.9% !important;
+}
+
+}
+/******************************* 730px ***********************************/
+@media screen and (max-width: 730px){
+  .button-sec2 {
+    margin-top: 24% !important;
+    margin-left: -44.7% !important;
+    width: 57% !important;
+}
+.paragraph {
+  text-align: center !important;
+  padding-top: 82% !important;
+  margin-bottom: -25% !important;
+  margin: auto -10%;
+
+}
+.footer-flex {
+  margin: 11% 5% !important;
+}
+.social-links {
+  margin: -9% 122% !important;
+  width: 66% !important;
+  position: absolute;
+}
+.Boost-box {
+  margin: 5% 23% !important;
+}
+.item-3 {
+  margin-top: 133% !important;
+}
+.third-box {
+  padding-bottom: 165% !important;
+}
+.item-2 {
+  margin-top: 65% !important;
+}
+.dot-2 {
+  margin: 114% auto !important;
 }
 }
 /******************************* 425px ***********************************/
