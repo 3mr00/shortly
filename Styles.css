@@ -1,6 +1,258 @@
 /*Stying for small screens*/
 
+/******************************* 425px ***********************************/
 
+
+
+
+@media screen and (max-width: 1250px){    
+  .footer-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 6%;
+}
+  .Boost-box {
+    width: 55%;
+}
+  .item-3 {
+    margin-top: 70% !important;
+    text-align: center !important;
+    position: absolute !important;
+  
+  }
+  .item-2 {
+    margin-top: 35% !important;
+    position: absolute !important;
+    text-align: center !important;
+    margin-right: 0% !important;
+  }
+  
+  .item-1 {
+     margin-right: 0%!important; 
+     margin-top: 0% !important;
+     text-align: center !important;
+  }
+  .text-font {
+    font-size: 55px !important;
+  }
+
+  
+.textprag {
+    font-size: 15px !important;
+}
+.dot {
+  height: 152px !important;
+  width: 8px !important;
+  margin: 20% auto !important;
+
+}
+
+.dot-2 {
+  height: 152px !important;
+  width: 8px !important;
+  margin: 55% auto !important;
+}
+.third-box {
+
+  padding-bottom: 80% !important;
+  padding-top: 25% !important;
+
+}
+.Circles {
+   margin-left: 0% !important;
+}
+.icon-detailed {
+  margin: -1.5% 1.7% !important;
+}
+.iconcircle-mobile{
+  margin: -6.5% 6.9% !important;
+
+}
+.icon-brand {
+  z-index: 5;
+  margin: -6.5% 6% !important;
+}
+ 
+
+.form_input2 {
+  margin-left: 27% !important;
+  position: absolute;
+  margin-top: -5% !important;
+}
+.button-sec2 {
+  position: absolute !important;
+  margin-left: -47.5% !important;
+  margin-top: 8% !important;
+  width: 60.7%;
+}
+.image_full{
+  display:none !important;
+ }
+
+ .image_mobile{
+  display: block !important;
+  margin-top: 8.9%;
+  width: 30%;
+  margin-left: 69.9%;
+ }
+ 
+/* .paragraph {
+  padding-left: 118px !important;
+  padding-top: 8% !important;
+  width: 142% !important;
+  position: absolute !important;
+}
+.text-font{
+  font-size: 65px!important;
+  font-weight: 700!important;
+  color: #EAEDED;
+  margin-bottom: -10px !important;
+}
+
+.textprag{
+  color: #d8dddd!important;
+  font-size: 14px!important;
+}
+
+.p-one{
+  margin-top: 2% !important;;
+  margin-bottom: 0% !important;;
+}
+.area {
+
+  height: 170vh;
+} */
+
+
+}
+
+@media screen and (max-width: 1090px){    
+
+  .button-sec2 {
+    position: absolute !important;
+    margin-top: 12% !important;
+    width: 60.7% !important;
+  }
+  
+  }
+
+  @media screen and (max-width: 845px){    
+    .footer-flex {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10% -43% !important;
+      padding: -10% 2% !important;
+      width: 51% !important;
+  }
+  .Login-item {
+    margin-left: 0% !important;
+}
+    .item-3 {
+      margin-top: 100% !important;
+    }
+    .item-2 {
+      margin-top: 50% !important;
+    }
+    .dot {
+      height: 213px !important;
+    }
+    .dot-2 {
+      margin: 80% auto !important;
+  }
+  .third-box {
+    padding-bottom: 112% !important;
+  }
+    .button-sec2 {
+      position: absolute !important;
+      margin-top: 12% !important;
+      width: 60.7% !important;
+      width: 60.99% !important;
+      margin-left: -47% !important;
+  
+    }
+    .illustration-working {
+      padding-top: 75px !important;
+      margin-left: -75% !important;
+      position: absolute;
+      width: 75% !important;
+    }
+    .paragraph {
+      text-align: center !important;
+      padding-left: 27% !important;
+      padding-top: 70% !important;
+      margin-bottom: -25% !important;
+  }
+
+ 
+.text-font{
+  font-size: 45px!important;
+  font-weight: 700!important;
+  color: #EAEDED;
+  margin-bottom: -10px !important;
+}
+
+.textprag{
+  color: #d8dddd!important;
+  font-size: 14px!important;
+}
+
+.p-one{
+  margin-top: 10% !important;;
+  margin-bottom: 0% !important;;
+}
+
+.button-js {
+  margin-left: 0%;
+  margin-top: 5%;
+  margin-bottom: 90%;
+}
+
+.third-box {
+
+  padding-top: 30% !important;
+}
+ 
+.area {
+
+  height: 177vh !important;
+}
+.Boost-box {
+
+  margin: 5% 35% !important;
+}
+.Boost-font {
+
+  font-size: 25px !important;
+} 
+.button-Boost {
+  margin-left: 40% !important;
+}
+
+.footer-flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 8% 24% !important;
+  padding: -10% 2% !important;
+  width: -47% !important;
+  position: absolute;
+}
+.footer-item {
+  margin: 28% -220% !important;
+}
+footer p {
+  color: #bbb;
+  text-align: center;
+  margin-top: 20% !important;
+}
+.social-links {
+  margin: -24% -390% !important;
+}
+.button-js {
+  margin-top: 5%;
+  margin-bottom: 90%;
+  margin-left: 50%;
+}
+}
 /******************************* 425px ***********************************/
 @media screen and (max-width: 425px){
   .navbar-toggler {
@@ -13,12 +265,14 @@
   .illustration-working {
     width: 410px !important;
     padding-top: 40px !important;
-    margin-left: -356px !important;
+    margin-left: -410px !important;
+    position:initial;
 }
 .paragraph {
-  padding-left: 60px !important;
-  padding-top: 105% !important;
-  text-align: center !important
+  padding-left: 10px !important;
+  margin-bottom: 0% !important;
+  text-align: center;
+  margin: 24% auto;
 }
 .text-font{
   font-size: 45px!important;
@@ -38,9 +292,10 @@
 }
 
 .button-js {
-  margin-left: 50%;
   margin-top: 5%;
   margin-bottom: 90%;
+  margin-left: 50%;
+
 }
 
 .third-box {
@@ -63,6 +318,8 @@
   margin-left: -57% !important;
   margin-top: 25% !important;
   padding: 10px 130px !important;
+  width: auto !important;
+
 }
 
 .form_input2 {
@@ -126,7 +383,9 @@ footer p {
 .Boost-box {
   margin: 6% -78% !important;
   width: 174% !important
+
 }
+
 .button-Boost {
 
   margin-left: 314% !important;
@@ -240,6 +499,12 @@ footer p {
 .Circles {
   margin-left: 0% !important;
 }
+.footer-flex {
+  margin: 0% !important;
+  width: 0% !important;
+  position:inherit;
+
+}
 }
 /******************************* 375px ***********************************/
 
@@ -256,6 +521,8 @@ footer p {
 }
 .illustration-working {
   width: 370px !important;
+  margin-left: -370px !important;
+
 }
 .paragraph {
   padding-left: 33px !important;
@@ -705,8 +972,10 @@ font-weight: 600 !important;
 }
 /* sec1 */
 .illustration-working {
-    padding-top: 70px;
-    margin-left: 103px;
+  padding-top: 25px;
+  margin-left: -47%;
+  position: absolute;
+  width: 47%;
 }
 .flex-container {
   display: flex;
@@ -786,10 +1055,9 @@ h2{
     border: 1px solid #9cf2f6;
 }
 .bg-shorten-desktop{
-    border-radius: 7px;
-    width: 100%;
-
-  
+  border-radius: 7px;
+  width: 100%;
+  margin-top: 8.8%;
 }
 .wrapper {
     display: flex;
@@ -811,7 +1079,7 @@ h2{
     width: 80%;
     z-index: 2;
     position: absolute;
-
+    margin: 7%;
 }
 .gold-box {
     z-index: 3;
@@ -829,10 +1097,10 @@ h2{
 }
 
 .shorten-box{
-display: flex;
-    z-index: 4;
-    margin-top: -8%;
-    position: relative;
+  display: flex;
+  z-index: 4;
+  margin-top: -7%;
+  position: relative;
 }
 .form_input2{
     width: 91%;
@@ -927,7 +1195,7 @@ span{
 }
 .dot {
     height: 7px;
-    width: 27px;
+    width: 60px;
     z-index: 6;
     margin-top: 9%;
     margin-right: 24.3%;
@@ -939,7 +1207,7 @@ span{
 }
 .dot-2 {
     height: 7px;
-    width: 27px;
+    width: 60px;
     z-index: 6;
     margin-top: 9%;
     margin-left: 24.3%;
@@ -964,6 +1232,8 @@ span{
   z-index: 2;
   position: absolute;
   margin: 5% 34%;
+  width: 55%;
+
 }
 
 .button-Boost{
